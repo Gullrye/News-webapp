@@ -1,4 +1,5 @@
 function tplReplace(template, templateObject) {
+  // node是{{ xxx }}，key是 xxx ，template文件执行后渲染完成后才能进行replace
   return template().replace(/\{\{(.*?)\}\}/g, (node, key) => {
     return templateObject[key.trim()]
   })
