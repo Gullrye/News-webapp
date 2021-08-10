@@ -3,7 +3,7 @@ import './imports'
 import Header from '../components/Header'
 
 ;((doc) => {
-  const oApp = document.querySelector('#app')
+  const oApp = doc.querySelector('#app')
 
   const init = () => {
     render()

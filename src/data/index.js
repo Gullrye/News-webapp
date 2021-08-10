@@ -40,3 +40,7 @@ const NEWS_TYPE = [
     title: '时尚'
   }
 ]
+
+export {
+  NEWS_TYPE
+}
